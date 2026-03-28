@@ -1,0 +1,26 @@
+{
+  "name": "boussaidms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.14.2",
+    "@pinia/nuxt": "^0.11.3",
+    "lucide-vue-next": "^0.344.0",
+    "nuxt": "^3.10.3",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "typescript": "^5.3.3"
+  }
+}
